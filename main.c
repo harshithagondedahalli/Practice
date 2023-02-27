@@ -10,4 +10,5 @@ main(){
        	rev();
        	sort(); 
 	sum();
+	diff();
 }

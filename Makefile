@@ -18,4 +18,6 @@ sort.o:sort.c
 	gcc -c sort.c
 sum.o:sum.c
 	gcc -c sum.c
+diff.o:diff.c
+        gcc -c diff.c
 
