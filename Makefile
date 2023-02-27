@@ -1,5 +1,5 @@
-ABC.exe:main.o big3.o  big.o  fact.o  fibancci.o   palindrome.o  rev.o  sort.o  sum.o diff.o
-	gcc -o ABC.exe main.o big3.o  big.o  fact.o  fibancci.o palindrome.o  rev.o  sort.o  sum.o diff.o
+ABC.exe:main.o big3.o  big.o  fact.o  fibancci.o   palindrome.o  rev.o  sort.o  sum.o
+	gcc -o ABC.exe main.o big3.o  big.o  fact.o  fibancci.o palindrome.o  rev.o  sort.o  sum.o
 main.o:main.c
 	gcc -c main.c
 big3.o:big3.c
@@ -18,6 +18,3 @@ sort.o:sort.c
 	gcc -c sort.c
 sum.o:sum.c
 	gcc -c sum.c
-diff.o:diff.c
-        gcc -c diff.c
-
